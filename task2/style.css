@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.header,.b11{
+  background-color: black;
+  color:whitesmoke;
+ 
+}
+.l11{
+    color: whitesmoke;
+    font-size: 16px;
+    
+}
+.l11:hover{
+    color: yellow;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(112, 37, 37); /* or another color that contrasts with your background */
+}
+.l1{
+    list-style-type: none;
+}
+.l1 li,.l1 li a{
+    display: inline-block;
+    padding-right: 15px;
+    color: whitesmoke;
+}
+.logo{
+    width: 300px;
+}
+.navbar-nav a:hover{
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease;
+}
+.ai{
+    width: 480px;
+    height: 50vh;
+
+}
+
+.section{
+    background-color: black;
+    min-height: 80vh;
+}
+.animate{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.b1{
+    text-align: center;
+    /* border-radius: 20px; */
+}
+
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Animate the text from right to left */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animations to the elements */
+.row.no-gutters .col-12.col-md-4 {
+    animation: slideInRight 2s ease both; /* Adjust duration and easing as needed */
+}
+.animate h1 {
+    animation: slideInLeft 2s ease both; /* Adjust duration and easing as needed */
+}
+.button_m {
+    animation: slideInLeft 2s ease both;
+    margin-top: 15px;
+}
+.button_m:hover{
+    color: whitesmoke;
+    padding:15px;
+}
+.sec1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.sc1{
+    width: 480px;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.f1{
+    background-color: black;
+    min-height: 10vh;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.anim--1,.anim--2{
+    opacity: 0;
+}
+.anim--1.animated, .anim--2.animated{
+    opacity:1;
+}
+
+
+
